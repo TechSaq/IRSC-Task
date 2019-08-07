@@ -1,0 +1,296 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #ededed;
+}
+
+#top-bar-container {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#top-bar {
+    background: #586b73;
+    color: white;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+}
+
+.fa-play-circle-o {
+    font-size: 4em;
+    transform: rotate(270deg);
+    -webkit-text-stroke: 6px #586b73;
+    margin-left: 10%
+}
+
+#home {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: auto 0;
+    margin-left: 0.8%;
+}
+
+.btn-style {
+    background: #586b73;
+    color: white;
+    border: solid white 1.5px;
+    border-radius: 20px;
+    width: 12%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    height: 40px;
+    margin: auto 0;
+    font-family: "Roboto", sans-serif;
+}
+
+#top-bar select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+#top-bar select:hover{
+    cursor: pointer;
+}
+
+#register {
+    padding-top: 0.37%;
+    padding-bottom: 0.5%;
+    padding-left: 3%;
+    margin-left: 45%;
+    position: relative;
+}
+
+#top-bar .fa-caret-down {
+    position: absolute;
+    top: 29px;
+    right: 26.6%;
+    font-size: 23px;
+    -webkit-text-stroke: 3px #586b73;
+}
+
+#login{
+    text-decoration: none;
+    color: white;
+    height: 23px;
+    margin-left: 2%;
+    text-align: center;
+}
+
+#sub-container {
+    position: relative;
+    top: 70px;
+    width: 90%;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1%;
+}
+
+#heading {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+#heading h2 {
+    margin: 0;
+}
+
+#filter-search {
+    display: flex;
+    margin-top: 5px;
+}
+
+#filter {
+    display: flex;
+}
+
+#filter p {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#filter > select {
+    width: 120px;
+    height: 40px;
+    border: 0px;
+    font-size: 1em;
+    background: #d6d4d4;
+    padding-left: 5px;
+}
+
+#filter1 {
+    margin: auto 0;
+    margin-left: 4%;
+}
+
+#filter2 {
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+#search {
+    margin-left: 49%;
+    position: relative;
+}
+
+.fa-search {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    color: #acacac;
+    font-size: 1.2em;
+
+}
+
+#input-search {
+    height: 37px;
+    margin-top: -4px;
+    margin: auto 0;
+    border: 2px solid #5f6e74;
+}
+
+#btn-search {
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    border: none;
+    background: #586b73;
+    width: 80px;
+    height: 43px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}
+
+#grid-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-card {
+    border: 1px solid black;
+    background: white;
+    position: relative;
+    display: none;
+}
+
+.card-heading {
+    font-weight: 900;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.venue-date {
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+
+.random {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.image img {
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 20px 20px;
+    grid-gap: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottom-head{
+    font-size: 0.7em;
+}
+
+.bottom-data{
+    margin-top: 0px;
+    font-size: 0.8em;
+}
+
+.card-footer{
+    display: grid;
+    background: #586b73;
+    grid-template-columns: 4fr 2fr;
+    width: 100%;
+    height: 18px;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 0.7em;
+    margin-top: 5px;
+}
+
+.card-footer p{
+    color: white;
+    left: 20px;
+    margin: auto 0;
+    margin-left: 20px;  
+}
+
+.card-footer a{
+    color: white;
+    right: 20px;
+    margin: auto 0;
+    margin-left: 25px;
+    
+}
+
+#more{
+    text-align: center;
+    position: relative;
+}
+
+#more button{
+    border: none;
+    border-radius: 50px;
+    background: #586b73;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 18%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px; 
+}
+
+.fa-angle-down{
+    position: absolute;
+    color: white;
+    top: 43px;
+    right: 42.8%;
+    font-size: 1.6em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+

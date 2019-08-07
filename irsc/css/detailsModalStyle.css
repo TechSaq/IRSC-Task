@@ -1,0 +1,19 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+#modal-heading{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#details h4{
+    font-size: 1em;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+#details p{
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+
